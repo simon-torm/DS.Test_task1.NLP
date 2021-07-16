@@ -1,6 +1,6 @@
 # DS.Test_task1
 ### Task: <br>
-learning classifier that will determine whether or not the text contains descriptive content (label "About or "None").
+learning classifier that will determine whether or not the text contains descriptive content ("About or "None" label).
 
 ### Files: <br>
 * **research1.ipynb** - Classic research of data and models. Data scaling using RandomUnderSampler, RandomOverSampler, SMOTE. Vectorizing of text using LabelEncoder, CountVectorizer, TfidfVectorizer. Construction of LinearRegression and NN models.
@@ -20,7 +20,7 @@ learning classifier that will determine whether or not the text contains descrip
 
 ### How to predict labels for text
 1. Run "server.py"
-2. Do post request to "http://127.0.0.1:5000//predict". Example:
+2. Do POST request to "http://127.0.0.1:5000//predict". Example:
 
 ```
 import requests
